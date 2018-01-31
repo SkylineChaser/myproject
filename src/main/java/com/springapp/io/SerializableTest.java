@@ -14,7 +14,7 @@ public class SerializableTest {
     public static void main(String[] args) throws IOException{
         User user=new User();
         user.setName("James");
-        user.setPassword("1234567");
+        user.setPassword("12345678");
 
         System.out.println("Before Serializable:" + user.toString());
         ObjectOutputStream os=new ObjectOutputStream(new  FileOutputStream("E://IO1/IO2/test2.txt"));
