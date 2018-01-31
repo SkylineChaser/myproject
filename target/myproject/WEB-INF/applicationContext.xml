@@ -1,0 +1,25 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.springapp"/>
+
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/WEB-INF/pages/"/>
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <bean id="resourceBean"  class="com.springapp.init.ResourceBean"
+          init-method="init" destroy-method="destroy">
+        <property name="file" value="D:/test.txt"/>
+    </bean>
+    <bean id="dependentBean"
+          class="com.springapp.init.DependBean"
+          init-method="init" destroy-method="destroy" depends-on="resourceBean">
+        <property name="resourceBean" ref="resourceBean"/>
+    </bean>
+
+</beans>
