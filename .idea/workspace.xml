@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="ca415d3c-afb3-48fa-a259-a3f71c6855ff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/springapp/io/SerializableTest.java" afterPath="$PROJECT_DIR$/src/main/java/com/springapp/io/SerializableTest.java" />
     </list>
     <ignored path="myproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,8 +89,8 @@
       <file leaf-file-name="SerializableTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/io/SerializableTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+            <state relative-caret-position="189">
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -866,7 +865,7 @@
       <workItem from="1513823514546" duration="564000" />
       <workItem from="1516973799725" duration="3693000" />
       <workItem from="1517368949316" duration="1430000" />
-      <workItem from="1517381392305" duration="1198000" />
+      <workItem from="1517381392305" duration="1267000" />
     </task>
     <task id="LOCAL-00001" summary="first test">
       <created>1517381952195</created>
@@ -875,11 +874,18 @@
       <option name="project" value="LOCAL" />
       <updated>1517381952196</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="second">
+      <created>1517382653849</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1517382653849</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77249000" />
+    <option name="totallyTimeSpent" value="77318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1376,8 +1382,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/springapp/io/SerializableTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="189">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding />
         </state>
       </provider>
